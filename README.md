@@ -1,7 +1,7 @@
 # 🔐 ZAMA - FHEVM IoT Security Analytics
 
 ## 📌 Overview
-The **FHEVM IoT Security Analytics Demo** is a **React-based** application that simulates IoT devices sending encrypted sensor data to a **blockchain-powered backend** using **Fully Homomorphic Encryption (FHE)** via **Zama's FHEVM technology**.  
+The **ZAMA - FHEVM IoT Security Analytics** is a **React-based** application that simulates IoT devices sending encrypted sensor data to a **blockchain-powered backend** using **Fully Homomorphic Encryption (FHE)** via **Zama's FHEVM technology**.  
 It demonstrates how **sensitive IoT data** can be processed, analyzed, and used for **anomaly detection** without being decrypted — ensuring **complete privacy**.
 
 ---
