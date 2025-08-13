@@ -49,7 +49,7 @@ It demonstrates how **sensitive IoT data** can be processed, analyzed, and used 
 
 ### 1: Clone the repository
 ```bash
-git clone https://github.com/yourusername/fhevm-iot-analytics.git
+git clone https://github.com/leonguyen971/Zama-Fhevm-Iot-Analytics.git
 cd fhevm-iot-analytics
 ```
 ### 2: Install dependencies
