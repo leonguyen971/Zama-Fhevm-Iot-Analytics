@@ -1,0 +1,167 @@
+.iot-simulator-container {
+  background-color: var(--primary-bg);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.iot-simulator-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--text-primary);
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.devices-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.device-card {
+  background-color: var(--secondary-bg);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.device-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 0.75rem;
+}
+
+.device-name {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.device-status {
+  padding: 0.25rem 0.5rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+}
+
+.device-status.active {
+  background-color: var(--success-color);
+  color: white;
+}
+
+.device-status.warning {
+  background-color: var(--warning-color);
+  color: black;
+}
+
+.device-location {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-bottom: 0.75rem;
+}
+
+.sensor-values {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.sensor-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sensor-label {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+  display: flex;
+  align-items: center;
+}
+
+.sensor-value {
+  color: var(--text-primary);
+  font-family: monospace;
+  font-size: 0.875rem;
+}
+
+.device-footer {
+  padding-top: 0.5rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.device-id {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.live-indicator {
+  display: flex;
+  align-items: center;
+  margin-top: 0.25rem;
+}
+
+.live-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  background-color: var(--success-color);
+  border-radius: 50%;
+  margin-right: 0.5rem;
+  animation: pulse 2s infinite;
+}
+
+.live-indicator span {
+  color: var(--text-muted);
+  font-size: 0.75rem;
+}
+
+.controls-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.countdown-display {
+  background-color: var(--accent-bg);
+  border-radius: 0.5rem;
+  padding: 0.75rem;
+  text-align: center;
+}
+
+.countdown-label {
+  color: var(--text-secondary);
+  font-size: 0.875rem;
+  margin-bottom: 0.25rem;
+}
+
+.countdown-value {
+  color: var(--text-primary);
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.generate-button {
+  width: 100%;
+  background-color: var(--info-color);
+  color: white;
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+  border-radius: 0.5rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.generate-button:hover:not(:disabled) {
+  background-color: #2563eb;
+}
+
+.generate-button:disabled {
+  background-color: var(--accent-bg);
+  cursor: not-allowed;
+}
